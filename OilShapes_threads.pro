@@ -3,5 +3,6 @@ CONFIG += console
 CONFIG -= qt
 
 SOURCES += main.cpp
-QMAKE_CXXFLAGS = -std=c++11 -pthread
+
+QMAKE_CXXFLAGS = -std=c++0x -pthread
 LIBS += -pthread
